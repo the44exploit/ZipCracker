@@ -5,6 +5,7 @@ from tqdm import tqdm
 from colorama import Fore,init
 import pyfiglet
 import argparse
+import sys
 
 init(autoreset=True)
 
@@ -59,7 +60,10 @@ parser.add_argument("-z","--zipcraker",action="store_true",help="Crack ZipFile")
 parser.add_argument("-r","--rarcracker",action="store_true",help="Crack RarFile")
 
 args = parser.parse_args()
-
+if len(sys.argv) == 1:
+    parser.print_help
+    sys.exit()
+    
 if args.zipcraker:
     zipcrack()
 if args.rarcracker:
