@@ -1,0 +1,5 @@
+pyzipper
+tqdm
+colorama
+pyfiglet
+argparse
