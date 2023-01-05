@@ -2,7 +2,7 @@
 Crack Encrypted File
 
 
-Installation
+<b>Installation</b>
 
 git clone https://github.com/the44exploit/ZipCracker.git
 
