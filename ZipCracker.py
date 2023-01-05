@@ -69,7 +69,7 @@ if args.zipcraker:
 if args.rarcracker:
     rarcrack()
 if len(sys.argv) == 1:
-    parser.print_help
+    parser.print_help()
     sys.exit()
 print("Wordlist Finished")
 print("Password Not Found, Try Other Wordlist")
