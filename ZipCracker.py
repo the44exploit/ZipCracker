@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import pyzipper
 from tqdm import tqdm
 from colorama import Fore,init
